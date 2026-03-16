@@ -1,0 +1,216 @@
+\chapter{绪论}\label{chap:introduction}
+
+\section{章节标题}
+\section{章节标题示例}
+\subsection{二级标题示例}
+\subsubsection{三级标题示例}
+
+\section{图}
+论文中若有图和表，应设置图表目录，先列图后列表，置于目录页后，另页编排。
+
+图片大小适当，图边界在页面范围内（图边界离页面边界距离大于页边距）。若图片中包含文字，文字大小不超过正文文字大小。
+图包括曲线图、构造图、示意图、框图、流程图、记录图、地图、照片等，宜插入正文适当位置。引用的图必须注明来源。具体要求如下：
+
+\begin{itemize}
+    \item 应具有“自明性”，即只看图、图题和图注，不阅读正文，就可理解图意。每一图应有简短确切的图题，连同图序置于图下居中。
+    \item 图中的符号标记、代码及实验条件等，可用最简练的文字横排于图框内或图框外的某一部位作为图注说明，全文统一。图题建议用中文及英文两种文字表达。
+    \item 照片图要求主要显示部分的轮廓鲜明，便于制版，如用放大、缩小的复制品，必须清晰，反差适中，照片上应有表示目的物尺寸的标尺。
+    \item 文中尽量不用世界地图、全国地图！如果一定要用，凡涉国界图件（国内部分地区、全国、世界部分地区、全球）必须使用自然资源部标准地图底图（下载网址：http://bzdt.ch.mnr.gov.cn），所用底图边界要完全无修改（包括南海诸岛位置），为适应排版时图的缩放，比例尺一律用线段比例尺，而不用数字比例尺。并在图题下注明“注：该图基于自然资源部标准地图服务网站下载的审图号为GS(2021)××××号的标准地图制作，底图边界无修改。”
+\end{itemize}
+图片一般设为高6cm×宽8cm，但高、宽也可根据图片量及排版需要按比例缩放。中文（宋体）英文（Times New Roman）图注为五号字，1.25倍行距。
+
+示例：
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{Fig/fig1-1.png}
+    \bicaption{示例图}{Example}
+    \label{fig:fig1-1}
+\end{figure}
+
+建议使用.pdf格式或者.eps 格式的矢量图，可以避免缩放带来的模糊问题。对于位图（如照片），建议使用.png格式，避免.jpg格式带来的压缩损失。
+
+多个子图：
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Fig/fig1-1.png}
+        \caption{子图 1}
+        \label{fig:1-2-a}
+    \end{subfigure}
+    \begin{subfigure}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Fig/fig1-1.png}
+        \caption{子图 2}
+        \label{fig:1-2-b}
+    \end{subfigure}
+    \begin{subfigure}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Fig/fig1-1.png}
+        \caption{子图 3}
+        \label{fig:1-2-c}
+    \end{subfigure}
+
+    % ---------------下一行图片（加回车） -----------------
+    \begin{subfigure}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Fig/fig1-1.png}
+        \caption{子图 1}
+        \label{fig:1-2-d}
+    \end{subfigure}
+    \begin{subfigure}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Fig/fig1-1.png}
+        \caption{子图 2}
+        \label{fig:1-2-e}
+    \end{subfigure}
+    \begin{subfigure}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Fig/fig1-1.png}
+        \caption{子图 3}
+        \label{fig:1-2-f}
+    \end{subfigure}
+
+
+    \bicaption{不同子图}{Different subfigures}
+    \label{fig:1-2}
+\end{figure}
+
+注意，图例不能遮挡曲线，曲线要用图例区分，彩印可以用不同的颜色区分，黑白印刷可以用不同的线型区分。图例要放在图内合适的位置，不能遮挡曲线和数据点。图例中的文字要清晰可读，字号不宜过小。图例的内容要简洁明了，能够准确描述曲线的含义。图例的格式要统一。
+
+
+\section{表格}
+表的编排一般是内容和测试项目由左至右横读，数据依序竖排，应有自明性，引用的表必须注明来源。具体要求如下：
+\begin{itemize}
+    \item 每一表应有简短确切的题名，连同表序置于表上居中。必要时，应将表中的符号、标记、代码及需说明的事项，以最简练的文字横排于表下作为表注。表题建议用中文及英文两种文字表达。
+    \item 表内同一栏数字必须上下对齐。表内不应用“同上”、“同左”等类似词及“″”符号，一律填入具体数字或文字，表内“空白”代表无此项，“—”或“…”（因“—”可能与代表阴性反应相混）代表未发现，“0”代表实测结果为零。表内未测出值可以用“N.D. ”表示。
+    \item 表格尽量用“三线表”，避免出现竖线，避免使用过大的表格，确有必要时可采用卧排表，正确方位应为“顶左底右”，即表顶朝左，表底朝右。表格太大需要转页时，需要在续表表头上方注明“续表”，表头也应重复排出。
+\end{itemize}
+示例：
+
+\begin{table*}[htbp!]
+\centering
+\bicaption{示例表格}{Example Table}
+\renewcommand\arraystretch{1.2}
+\label{tab:1-1}
+
+\resizebox{\linewidth}{!}{
+\begin{tabular}{c p{3.6cm} p{3.8cm} p{4.2cm}}
+\toprule
+A & B & C & D \\ 
+\midrule
+  & 11 & 22 & 33   \\
+ \multirow[c]{3}{*}{合并单元格}  & 44 & 55 & 66 \\
+  & 77 \\
+
+  88 & 99 & A1 & B2 \\
+\bottomrule
+\end{tabular}
+}
+
+\vspace{0.3em}
+\raggedright
+\footnotesize
+注：如有表格脚注请在这里注明，如没有，课注释掉 Line 110 - Line 113 内容
+\end{table*}
+
+如表格过长，需要续表，可参照附录的写法。
+
+\section{公式}
+一般来说，固定的量用正体，变化的量用斜体；明确定义的量用正体、未明确定义的量用斜体；计量单位用正体，量的符号用斜体。 
+
+普通标量用斜体，如$x$、$y$、$z$，函数用斜体，如$f(x)$、$g(y)$
+
+特殊标量使用正体，如下：
+\begin{itemize}
+    \item 自然数 $\mathrm{e}$
+    \item 圆周率 $\mathrm{\pi}$
+    \item 虚数单位 $\mathrm{i}$ 和 $\mathrm{j}$
+    \item 文中的所有单位，如米（$\mathrm{m}$）、秒（$\mathrm{s}$）、赫兹（$\mathrm{Hz}$）等
+    \item 一切超过两个字母组成的变量、函数等，如 $\mathrm{Var}$、$\mathrm{Cov}$、$\mathrm{sin}$、$\mathrm{cos}$ 等
+    \item 转置$\mathrm{T}$ (字体Times New Roman); 共轭转置$\mathrm{H}$等特殊量
+    \item 所有的数字，无论是向量还是标量
+\end{itemize}
+
+矩阵和向量（粗斜体）需要使用粗斜体，如式\ref{eq:1-1}所示 $\boldsymbol{A}$，有省略号的至少写3项，表达出规律。
+\begin{equation}
+\boldsymbol{A} = \begin{bmatrix}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+a_{21} & a_{22} & \cdots & a_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m1} & a_{m2} & \cdots & a_{mn}
+\end{bmatrix}
+\label{eq:1-1}
+\end{equation}
+
+集合，如实数集 $\mathbb{R}$、复数集 $\mathbb{C}$ 等特殊集合使用加粗整体或者花体
+
+上下标，说明性变量：代表英文缩写或某单词首字母的上标或下标使用正体，如$x_{\mathrm{max}}$、$y_{\mathrm{min}}$、$z_{\mathrm{avg}}$等；代表变量的上标或下标使用斜体，如$x_i$、$y_j$、$z_k$等。
+
+单位，有单位的必须要标明，须为国际单位。否则，请给出同国标的换算关系。数字和单位之间空一格，比如15 $\mathrm{s}$，25 $\mathrm{km}$等，单位全部为正体。
+
+优化问题可以使用如下格式：
+
+\begin{subequations}
+\label{eq:1-2}
+\begin{align}
+\max\limits_{b_i \in \mathcal{B}} & f(x) \label{eq:1-2-func} \\
+\text{s.t.} \quad
+& 0 < x_i < 1, \quad \forall i \label{eq:1-2-const1} \\
+& \sum_{j=1}^N a_{ij} = 1, \quad \forall i,j; \quad a_{ij} \in {0,1} \label{eq:1-2-const2} \\
+& \sum_{i=1}^N \sum_{j=1}^M a_{ij} \cdot j = A \label{eq:1-2-const3} 
+\end{align}
+\end{subequations}
+
+长公式可以使用两行写
+\begin{equation}
+\begin{aligned}
+f(x) = & a_1 x_1 + a_2 x_2 + \cdots + a_n x_n \\
+& + b_1 y_1 + b_2 y_2 + \cdots + b_m y_m
+\end{aligned}
+\end{equation}
+
+\section{参考文献}
+参考文献的格式参考GB-7714，均整理在 example.bib 文件中，使用 BibTeX 进行管理。文献引用格式为数字上标，文献列表按照引用顺序排列。
+
+示例：
+\begin{itemize}
+    \item 中文期刊论文 \cite{RN1202}
+    \item 英文期刊论文 \cite{RN2}
+    \item 在线期刊（为分配卷号） \cite{RN1217}
+    \item 会议论文 \cite{RN146}
+    \item 图书 \cite{book2}
+    \item 学位论文 \cite{RN1204}
+    \item 专利 \cite{RN1206}
+    \item 网站 \cite{kuiper}
+    \item 预印本 \cite{megatron}
+\end{itemize}
+
+
+\section{算法}
+
+\begin{algorithm}[htbp!]
+  \small
+  \caption{XXX 算法 }
+  \label{alg:3-1}
+  \renewcommand{\algorithmicrequire}{\textbf{输入:}}
+  \renewcommand{\algorithmicensure}{\textbf{输出:}}
+  \begin{algorithmic}[1]
+  \Require 输入参数 $x$，$y$，$z$；
+  \Ensure 算法结果 $G^*$.
+  
+  \State 初始化;
+  \State 计算;
+  \For{迭代：从 $i = 1$ 到 $N$}
+     \State 更新状态;
+    
+  \EndFor
+  \State 计算 $a$、$b$ 和 $c$;
+  \If{$R > R_{best}$}
+        \State 更新 $R_{best} = R$;
+  \EndIf
+
+  \State \textbf{return} $G^*$
+\end{algorithmic}
+\end{algorithm}

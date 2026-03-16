@@ -1,0 +1,25 @@
+%---------------------------------------------------------------------------%
+%->> 主文档
+%---------------------------------------------------------------------------%
+\renewcommand{\thefigure}{\thechapter-\arabic{figure}}
+\renewcommand{\thetable}{\thechapter-\arabic{table}}
+\renewcommand{\theequation}{\thechapter-\arabic{equation}}
+\let\savecleardoublepage\cleardoublepage% save cleardoublepage function
+\renewcommand{\cleardoublepage}{\clearpage}% start to deactivate cleardoublepage
+\input{Tex/ZChap_1}
+\input{Tex/ZChap_2}
+\input{Tex/ZChap_3}
+\input{Tex/ZChap_4}
+\input{Tex/ZChap_5}
+\input{Tex/ZChap_6}
+\let\cleardoublepage\savecleardoublepage% reactivate cleardoublepage
+
+% \includeonly{Tex/ZChap_3}
+
+% \include{Tex/ZChap_1}
+% \include{Tex/ZChap_2}
+% \include{Tex/ZChap_3}
+% \include{Tex/ZChap_4}
+% \include{Tex/ZChap_5}
+% \include{Tex/ZChap_6}
+%---------------------------------------------------------------------------%

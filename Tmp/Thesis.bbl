@@ -1,0 +1,73 @@
+\begin{thebibliography}{9}
+\providecommand{\biband}{和}
+\providecommand{\bibetal}{等}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[陶滢\ {\bibetal}(2022)陶滢, 刘伟, 高梓贺, and 张磊]{RN1202}
+陶滢, 刘伟, 高梓贺, 等.
+\newblock 天地一体化信息网络中星载边缘计算应用与挑战 [J].
+\newblock 无线电通信技术, 2022, 48\penalty0 (05): 763-772.
+
+\bibitem[Mao {\bibetal}(2017)Mao, You, Zhang, Huang, and Letaief]{RN2}
+Mao~Y, You~C, Zhang~J, et~al.
+\newblock A survey on mobile edge computing: The communication perspective [J].
+\newblock IEEE Communications Surveys \& Tutorials, 2017, 19\penalty0 (4):
+  2322-2358.
+
+\bibitem[张其阳\ {\bibetal}(2025)张其阳, 邢若粼, 李元哲, 周傲,
+  徐梦炜, and 王尚广]{RN1217}
+张其阳, 邢若粼, 李元哲, 等.
+\newblock 卫星边缘计算智能化技术研究进展 [J/OL].
+\newblock 软件学报, 2025: 1-16.
+\newblock \url{https://link.cnki.net/doi/10.13328/j.cnki.jos.007410}.
+
+\bibitem[Foreman {\bibetal}(2017)Foreman, Siddiqi, and De~Weck]{RN146}
+Foreman~V~L, Siddiqi~A, De~Weck~O.
+\newblock Large satellite constellation orbital debris impacts: Case studies of
+  oneweb and spacex proposals [C]//\allowbreak
+AIAA SPACE and Astronautics Forum and Exposition.
+\newblock Denver, Colorado, USA: Springer, 2017: 5200.
+
+\bibitem[雷波\ {\bibetal}(2022)雷波 and 陈运清]{book2}
+雷波, 陈运清.
+\newblock 边缘计算与算力网络 [M].
+\newblock 北京: 电子工业出版社, 2022.
+
+\bibitem[舒敏(2025)]{RN1204}
+舒敏.
+\newblock 基于月球的卫星在轨辐射定标及科学应用研究 [D].
+\newblock 合肥: 中国科学技术大学, 2025.
+
+\bibitem[刘思阳\ {\bibetal}(2025)刘思阳 and 蒙涛]{RN1206}
+刘思阳, 蒙涛.
+\newblock
+  对地覆盖异构星座的构型、部署、维持一体化设计方法:
+  CN120781715A [P].
+\newblock 2025-10-14.
+
+\bibitem[Amazon((2025)]{kuiper}
+Amazon.
+\newblock Project {K}uiper [EB/OL].
+\newblock \allowbreak((2025-09-21)[2025-11-24]).
+\newblock
+  \url{https://www.aboutamazon.com/what-we-do/devices-services/project-kuiper}.
+
+\bibitem[Shoeybi {\bibetal}(2019)Shoeybi, Patwary, Puri, LeGresley, Casper, and
+  Catanzaro]{megatron}
+Shoeybi~M, Patwary~M, Puri~R, et~al.
+\newblock {Megatron-LM}: Training multi-billion parameter language models using
+  model parallelism [J/OL].
+\newblock arXiv preprint, 2019.
+\newblock \url{https://arxiv.org/abs/1909.08053}.
+
+\end{thebibliography}

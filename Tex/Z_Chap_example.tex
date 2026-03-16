@@ -1,0 +1,88 @@
+\chapter{Example}\label{chap:example}
+
+\section{表格}
+
+\begin{center}
+    %\footnotesize% fontsize
+    %\setlength{\tabcolsep}{4pt}% column separation
+    %\renewcommand{\arraystretch}{1.5}% row space 
+    \begin{tabular}{lcc}
+        \hline
+        %\multicolumn{num_of_cols_to_merge}{alignment}{contents} \\
+        %\cline{i-j}% partial hline from column i to column j
+        操作系统 & \LaTeX{}编译系统 & \LaTeX{}文本编辑器\\
+        \hline
+        Linux & \href{https://www.tug.org/texlive/acquire-netinstall.html}{\TeX{}Live Full} & \href{http://www.xm1math.net/texmaker/}{Texmaker} 或 Vim\\
+        MacOS & \href{https://www.tug.org/mactex/}{Mac\TeX{} Full} & \href{http://www.xm1math.net/texmaker/}{Texmaker} 或 Texshop\\
+        Windows & \href{https://www.tug.org/texlive/acquire-netinstall.html}{\TeX{}Live Full} 或 \href{https://miktex.org/download}{MiK\TeX{}} & \href{http://www.xm1math.net/texmaker/}{Texmaker}\\
+        \hline
+    \end{tabular}
+\end{center}
+
+% =========================================================================== %
+\section{公式}
+\begin{equation} \label{eq:ns}
+    \adddotsbeforeeqnnum%
+    \begin{cases}
+        \frac{\partial \rho}{\partial t} + \nabla\cdot(\rho\Vector{V}) = 0 \ \mathrm{times\ math\ test: 1,2,3,4,5}, 1,2,3,4,5\\
+        \frac{\partial (\rho\Vector{V})}{\partial t} + \nabla\cdot(\rho\Vector{V}\Vector{V}) = \nabla\cdot\Tensor{\sigma} \ \text{times text test: 1,2,3,4,5}\\
+        \frac{\partial (\rho E)}{\partial t} + \nabla\cdot(\rho E\Vector{V}) = \nabla\cdot(k\nabla T) + \nabla\cdot(\Tensor{\sigma}\cdot\Vector{V})
+    \end{cases}
+\end{equation}
+
+% =========================================================================== %
+\section{算法}
+
+\begin{algorithm}[!htbp]
+    \small
+    \caption{Euclid's algorithm}\label{alg:euclid}
+    \begin{algorithmic}[1]
+        \Procedure{Euclid}{$a,b$}\Comment{The g.c.d. of a and b}
+        \State $r\gets a\bmod b$
+        \While{$r\not=0$}\Comment{We have the answer if r is 0}
+        \State $a\gets b$
+        \State $b\gets r$
+        \State $r\gets a\bmod b$
+        \EndWhile\label{euclidendwhile}
+        \State \textbf{return} $b$\Comment{The gcd is b}
+        \EndProcedure
+    \end{algorithmic}
+\end{algorithm}
+
+% =========================================================================== %
+\section{图片}
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.40\textwidth]{c06h06}
+    \bicaption{Q判据等值面图，同时测试一下一个很长的标题，比如这真的是一个很长很长很长很长很长很长很长很长的标题。}{Isocontour of Q criteria, at the same time, this is to test a long title, for instance, this is a really very long very long very long very long very long title.}
+    \label{fig:c06h06}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \begin{subfigure}[b]{0.35\textwidth}
+      \includegraphics[width=\textwidth]{oaspl_a}
+      \caption{}
+      \label{fig:oaspl_a}
+    \end{subfigure}%
+    ~% add desired spacing
+    \begin{subfigure}[b]{0.35\textwidth}
+      \includegraphics[width=\textwidth]{oaspl_b}
+      \caption{}
+      \label{fig:oaspl_b}
+    \end{subfigure}
+    \\% line break
+    \begin{subfigure}[b]{0.35\textwidth}
+      \includegraphics[width=\textwidth]{oaspl_c}
+      \caption{}
+      \label{fig:oaspl_c}
+    \end{subfigure}%
+    ~% add desired spacing
+    \begin{subfigure}[b]{0.35\textwidth}
+      \includegraphics[width=\textwidth]{oaspl_d}
+      \caption{}
+      \label{fig:oaspl_d}
+    \end{subfigure}
+    \bicaption{总声压级。(a) 这是子图说明信息，(b) 这是子图说明信息，(c) 这是子图说明信息，(d) 这是子图说明信息。}{OASPL.(a) This is the explanation of subfig, (b) This is the explanation of subfig, (c) This is the explanation of subfig, (d) This is the explanation of subfig.}
+    \label{fig:oaspl}
+\end{figure}
