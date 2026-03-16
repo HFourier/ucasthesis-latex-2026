@@ -18,7 +18,16 @@
 - 在使用bib参考文献时，几乎每一篇文献都需要重新按照字段进行相应的修改，在使用时，请尽可能不要缺失模板中的字段（部分期刊可能没有卷号），一些期刊网站导出时会有很多多余字段，需要手动删除
 - 图片尽可能使用pdf格式图片，这样可以减少整体的pdf大小
 - 更多内容和问答，可以参考国科大Latex模板[GitHub](https://github.com/mohuangrui/ucasthesis)
-- 如果附录不想加计数，仅显示“附录”
+- 如果附录不想加计数，仅显示“附录”，在`ucasthesis.cls`中，Line 661- Line 669，改成如下：
+```
+\ctexset {
+    appendix = {
+        numbering = true,
+        % number = \rmfamily\zhnum{chapter},
+        number = {},
+    }
+}
+```
 
 # 加速编译
 随着论文内容增加，latex编译速度会非常慢，因此可以选择仅编译当前章节内容，以加快编译速度，方法如下
