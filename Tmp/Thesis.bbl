@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{12}
 \providecommand{\biband}{和}
 \providecommand{\bibetal}{等}
 \providecommand{\natexlab}[1]{#1}
@@ -19,7 +19,7 @@
 \newblock 无线电通信技术, 2022, 48\penalty0 (05): 763-772.
 
 \bibitem[Mao {\bibetal}(2017)Mao, You, Zhang, Huang, and Letaief]{RN2}
-Mao~Y, You~C, Zhang~J, et~al.
+Mao~Y~Y, You~C~S, Zhang~J, et~al.
 \newblock A survey on mobile edge computing: The communication perspective [J].
 \newblock IEEE Communications Surveys \& Tutorials, 2017, 19\penalty0 (4):
   2322-2358.
@@ -69,5 +69,27 @@ Shoeybi~M, Patwary~M, Puri~R, et~al.
   model parallelism [J/OL].
 \newblock arXiv preprint, 2019.
 \newblock \url{https://arxiv.org/abs/1909.08053}.
+
+\bibitem[Enterprise(2024)]{HPE}
+Enterprise~H~P.
+\newblock {HPE} spaceborne computer-2 returns to the international space
+  station [EB/OL].
+\newblock \allowbreak(2024-01-30)\allowbreak[2026-03-24].
+\newblock
+  \url{https://www.businesswire.com/news/home/20240129331403/en/HPE-Spaceborne-Computer-2-Returns-to-the-International-Space-Station}.
+
+\bibitem[OrbitsEdge(2025)]{OrbitEdge}
+OrbitsEdge.
+\newblock Enabling smarter space missions through edge computing [EB/OL].
+\newblock \allowbreak(2025-02-29).
+\newblock \url{https://orbitsedge.com/mission}.
+
+\bibitem[Jewett((2020)]{Azure}
+Jewett~R.
+\newblock Microsoft's new {Azure} cloud platform includes {SpaceX} {Starlink}
+  and {SES MEO} services [EB/OL].
+\newblock \allowbreak((2020-10-20)[2025-11-24]).
+\newblock
+  \url{https://www.satellitetoday.com/finance/2020/10/20/microsofts-new-azure-cloud-platform-includes-spacex-starlink-and-ses-meo-services/}.
 
 \end{thebibliography}
